@@ -3,6 +3,7 @@ import { useState, useEffect, useStateValue } from 'react';
 import Carousel from "./components/HomeCarousel";
 import LiveSearch from "./components/LiveSearch";
 import FoodCard from './components/FoodCard';
+import MenuCategory from './components/MenuCategory';
 import SimpleBottomNavigation from './components/BottomMenu';
 import MenuContainer from './components/MenuContainer';
 import {
@@ -11,6 +12,7 @@ import {
   Settings,
   SummarizeRounded,
 } from "@mui/icons-material";
+import MenuCard from "./components/MenuCard";
 
 const profiles = [
   { id: "1", name: "Allie Grater" },
@@ -66,10 +68,66 @@ function App() {
         onSelect={(item) => setSelectedProfile(item)}
       />
       <h1 className='mt-5'>Food Category</h1>
-      <FoodCard />
+    <div className="flex flex-wrap justify-center gap-x-7 gap-4">
+    <MenuCard
+        imgSrc={
+          "https://w7.pngwing.com/pngs/739/553/png-transparent-hamburger-veggie-burger-chicken-sandwich-fast-food-hamburger-burger-burger-sandwich-food-recipe-cheeseburger.png"
+        }
+        name={"Burger"}
+        isActive={true}
+      />
+      <MenuCard
+        imgSrc={
+          "https://w7.pngwing.com/pngs/739/553/png-transparent-hamburger-veggie-burger-chicken-sandwich-fast-food-hamburger-burger-burger-sandwich-food-recipe-cheeseburger.png"
+        }
+        name={"Burger"}
+        isActive={true}
+      />
+      <MenuCard
+        imgSrc={
+          "https://w7.pngwing.com/pngs/739/553/png-transparent-hamburger-veggie-burger-chicken-sandwich-fast-food-hamburger-burger-burger-sandwich-food-recipe-cheeseburger.png"
+        }
+        name={"Burger"}
+        isActive={true}
+      />
+      <MenuCard
+        imgSrc={
+          "https://w7.pngwing.com/pngs/739/553/png-transparent-hamburger-veggie-burger-chicken-sandwich-fast-food-hamburger-burger-burger-sandwich-food-recipe-cheeseburger.png"
+        }
+        name={"Burger"}
+        isActive={true}
+      />
+      <MenuCard
+        imgSrc={
+          "https://w7.pngwing.com/pngs/739/553/png-transparent-hamburger-veggie-burger-chicken-sandwich-fast-food-hamburger-burger-burger-sandwich-food-recipe-cheeseburger.png"
+        }
+        name={"Burger"}
+        isActive={true}
+      />
+      <MenuCard
+        imgSrc={
+          "https://w7.pngwing.com/pngs/739/553/png-transparent-hamburger-veggie-burger-chicken-sandwich-fast-food-hamburger-burger-burger-sandwich-food-recipe-cheeseburger.png"
+        }
+        name={"Burger"}
+        isActive={true}
+      />
+      <MenuCard
+        imgSrc={
+          "https://w7.pngwing.com/pngs/739/553/png-transparent-hamburger-veggie-burger-chicken-sandwich-fast-food-hamburger-burger-burger-sandwich-food-recipe-cheeseburger.png"
+        }
+        name={"Burger"}
+        isActive={true}
+      />
+      <MenuCard
+        imgSrc={
+          "https://w7.pngwing.com/pngs/739/553/png-transparent-hamburger-veggie-burger-chicken-sandwich-fast-food-hamburger-burger-burger-sandwich-food-recipe-cheeseburger.png"
+        }
+        name={"Burger"}
+        isActive={true}
+      />
+    </div>
       <h1 className='mt-5'>Popular</h1>
 
-      <SimpleBottomNavigation />
 
       <div className="leftMenu">
         <ul id="menu">
