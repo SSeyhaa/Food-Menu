@@ -14,6 +14,7 @@ import {
   SummarizeRounded,
 } from "@mui/icons-material";
 import MenuCard from "./components/MenuCard";
+import ViewAll from "./components/ViewAll.jsx";
 
 const profiles = [
   { id: "1", name: "Allie Grater" },
@@ -64,7 +65,10 @@ function App() {
         onChange={handleChange}
         onSelect={(item) => setSelectedProfile(item)}
       />
-      <h1 className="mt-5">Food Category</h1>
+        <div className="flex items-center justify-between px-3 py-6">
+            <h1 className="font-bold text-lg">Food Category</h1>
+            <ViewAll/>
+        </div>
       <div className="flex flex-wrap justify-center gap-x-7 gap-4">
         <MenuCard
           imgSrc={
