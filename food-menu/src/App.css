@@ -5,6 +5,14 @@
   overflow-x: hidden;
 }
 
+.container-app {
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
 .App::-webkit-scrollbar {
   display: none;
 }

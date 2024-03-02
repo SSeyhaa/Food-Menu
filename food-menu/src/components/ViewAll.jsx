@@ -3,7 +3,7 @@ import React from "react";
 
 function ViewAll({text}) {
     return (
-        <div className='view-all flex items-center justify-between px-4 py-6'>
+        <div className='view-all flex items-center justify-between py-6'>
             <h1>{text}</h1>
             <div className='flex items-center'>
                 <h5 className='view-all-header font-semibold text-orange-400 hover:text-orange-600'>
