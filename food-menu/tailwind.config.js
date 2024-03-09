@@ -7,8 +7,11 @@ export default {
   ],
   theme: {
     extend: {},
+    colors: {
+      color_app: '#f8901c',
+    }
   },
-  plugins: [
-    require('flowbite/plugin'),
-  ],
+    plugins: [
+      require('flowbite/plugin'),
+    ],
 }
