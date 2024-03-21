@@ -1,4 +1,5 @@
 import BannerCarousel from "../../components/BannerCarousel";
+import ItemCard from "../../components/ItemCard";
 import HorizontalScrollCard from "../../components/HorizontalScrollCard";
 import MenuCardRound from "../../components/MenuCardRound";
 import SearchBar from "../../components/SearchBar";
@@ -22,6 +23,68 @@ const Cart = () => {
         <MenuCardRound />
         <MenuCardRound />
         </HorizontalScrollCard>
+
+        <div className="flex flex-wrap justify-center gap-x-14">
+          <ItemCard
+            itemId="buger01"
+            imgSrc={
+              "https://png.pngtree.com/png-clipart/20230414/original/pngtree-isolated-burger-on-transparent-background-png-image_9055072.png"
+            }
+            name={"aa"}
+            ratings={4}
+            price={"10"}
+          />
+
+          <ItemCard
+            itemId="buger01"
+            imgSrc={
+              "https://png.pngtree.com/png-clipart/20230414/original/pngtree-isolated-burger-on-transparent-background-png-image_9055072.png"
+            }
+            name={"aa"}
+            ratings={4}
+            price={"10"}
+          />
+
+          <ItemCard
+            itemId="buger01"
+            imgSrc={
+              "https://png.pngtree.com/png-clipart/20230414/original/pngtree-isolated-burger-on-transparent-background-png-image_9055072.png"
+            }
+            name={"aa"}
+            ratings={4}
+            price={"10"}
+          />
+
+          <ItemCard
+            itemId="buger01"
+            imgSrc={
+              "https://png.pngtree.com/png-clipart/20230414/original/pngtree-isolated-burger-on-transparent-background-png-image_9055072.png"
+            }
+            name={"aa"}
+            ratings={4}
+            price={"10"}
+          />
+
+          <ItemCard
+            itemId="buger01"
+            imgSrc={
+              "https://png.pngtree.com/png-clipart/20230414/original/pngtree-isolated-burger-on-transparent-background-png-image_9055072.png"
+            }
+            name={"aa"}
+            ratings={4}
+            price={"10"}
+          />
+          <ItemCard
+            itemId="buger01"
+            imgSrc={
+              "https://png.pngtree.com/png-clipart/20230414/original/pngtree-isolated-burger-on-transparent-background-png-image_9055072.png"
+            }
+            name={"aa"}
+            ratings={4}
+            price={"10"}
+          />
+        </div>
+
       </div>
     </div>
   );
