@@ -1,0 +1,45 @@
+{
+    "foodCategories": [
+      {
+        "id": 1,
+        "name": "Pizza",
+        "imagePath": "https://png.pngtree.com/png-clipart/20230414/original/pngtree-isolated-burger-on-transparent-background-png-image_9055072.png"
+      },
+      {
+        "id": 2,
+        "name": "Burger",
+        "imagePath": "https://png.pngtree.com/png-clipart/20230414/original/pngtree-isolated-burger-on-transparent-background-png-image_9055072.png"
+      },
+      {
+        "id": 3,
+        "name": "Sushi",
+        "imagePath": "https://png.pngtree.com/png-clipart/20230414/original/pngtree-isolated-burger-on-transparent-background-png-image_9055072.png"
+      },
+      {
+        "id": 4,
+        "name": "Pizza",
+        "imagePath": "https://png.pngtree.com/png-clipart/20230414/original/pngtree-isolated-burger-on-transparent-background-png-image_9055072.png"
+      },
+      {
+        "id": 5,
+        "name": "Burger",
+        "imagePath": "https://png.pngtree.com/png-clipart/20230414/original/pngtree-isolated-burger-on-transparent-background-png-image_9055072.png"
+      },
+      {
+        "id": 6,
+        "name": "Sushi",
+        "imagePath": "https://png.pngtree.com/png-clipart/20230414/original/pngtree-isolated-burger-on-transparent-background-png-image_9055072.png"
+      },
+      {
+        "id": 5,
+        "name": "Burger",
+        "imagePath": "https://png.pngtree.com/png-clipart/20230414/original/pngtree-isolated-burger-on-transparent-background-png-image_9055072.png"
+      },
+      {
+        "id": 6,
+        "name": "Sushi",
+        "imagePath": "https://png.pngtree.com/png-clipart/20230414/original/pngtree-isolated-burger-on-transparent-background-png-image_9055072.png"
+      }
+    ]
+  }
+  
